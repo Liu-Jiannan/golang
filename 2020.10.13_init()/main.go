@@ -1,6 +1,9 @@
 package main
 
-import "./utils"
+import (
+	"./utils"
+	"database/sql"
+)
 
 func main()  {
 	utils.Count()
@@ -12,7 +15,7 @@ func main()  {
 	该函数只能由go程序自动调用,不可以被引用
 	不同点:
 	init可以应用与任意包中,且只能定义一个
-	main函数只能用于main包中,且只能定义一个.
+	main函数只能用于main包中,且只能定义一个
 
 	两个函数的执行顺序:
 	在main包中的go文件默认总是会被执行。
@@ -23,8 +26,7 @@ func main()  {
 	 */
 
 	/*
-	init()函数和main()函数
-	1.
-
+	导入包前加  _	表示只执行里面的init()函数,用于初始化一些值
 	 */
+	sql.Open("")
 }
