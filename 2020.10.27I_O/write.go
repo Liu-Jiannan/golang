@@ -27,13 +27,13 @@ func main() {
 	HandLeErr(err)
 
 	//直接写出字符串
-	n,err = file.WriteString("HelloWorld")
+	n,err = file.WriteString("\nHelloWorld")
 	fmt.Println(n)
 	HandLeErr(err)
 
-	file.WriteString("\n")
+	//file.WriteString("\n")
 
-	n,err=file.Write([]byte("today"))
+	n,err=file.Write([]byte("\ntoday"))
 	fmt.Println(n)
 	HandLeErr(err)
 
