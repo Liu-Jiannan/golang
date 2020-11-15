@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="58158ed8-a75b-4105-b017-652bb46cc213" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/3、race.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/4、ticket.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/5、waitgroup.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -37,7 +36,7 @@
     <property name="go.sdk.automatically.set" value="true" />
     <property name="last_opened_file_path" value="$USER_HOME$" />
   </component>
-  <component name="RunManager" selected="Go Build.go build 4、ticket.go">
+  <component name="RunManager" selected="Go Build.go build 5、waitgroup.go">
     <configuration name="go build 1、goroutine.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="2020.11.9_goroutine" />
       <working_directory value="$PROJECT_DIR$/" />
@@ -70,8 +69,17 @@
       <directory value="$PROJECT_DIR$/" />
       <method v="2" />
     </configuration>
+    <configuration name="go build 5、waitgroup.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="2020.11.9_goroutine" />
+      <working_directory value="$PROJECT_DIR$/" />
+      <kind value="FILE" />
+      <filePath value="$PROJECT_DIR$/5、waitgroup.go" />
+      <directory value="$PROJECT_DIR$/" />
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Go Build.go build 5、waitgroup.go" />
         <item itemvalue="Go Build.go build 4、ticket.go" />
         <item itemvalue="Go Build.go build 3、race.go" />
         <item itemvalue="Go Build.go build 2、runtine.go" />
@@ -83,22 +91,26 @@
     <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
-    <state width="763" height="279" key="GridCell.Tab.0.bottom" timestamp="1605097681665">
+    <state x="220" y="272" key="FileChooserDialogImpl" timestamp="1605144880434">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="763" height="279" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1605097681665" />
-    <state width="763" height="279" key="GridCell.Tab.0.center" timestamp="1605097681665">
+    <state x="220" y="272" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1605144880434" />
+    <state width="767" height="280" key="GridCell.Tab.0.bottom" timestamp="1605440845359">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="763" height="279" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1605097681665" />
-    <state width="763" height="279" key="GridCell.Tab.0.left" timestamp="1605097681665">
+    <state width="767" height="280" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1605440845359" />
+    <state width="767" height="280" key="GridCell.Tab.0.center" timestamp="1605440845359">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="763" height="279" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1605097681665" />
-    <state width="763" height="279" key="GridCell.Tab.0.right" timestamp="1605097681665">
+    <state width="767" height="280" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1605440845359" />
+    <state width="767" height="280" key="GridCell.Tab.0.left" timestamp="1605440845359">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="763" height="279" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1605097681665" />
+    <state width="767" height="280" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1605440845359" />
+    <state width="767" height="280" key="GridCell.Tab.0.right" timestamp="1605440845359">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="767" height="280" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1605440845359" />
     <state width="763" height="344" key="GridCell.Tab.1.bottom" timestamp="1604922468283">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
